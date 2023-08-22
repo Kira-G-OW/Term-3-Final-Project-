@@ -57,20 +57,38 @@
         
               </nav>
         
-            <!------------------------------------------------------------>
-
-
-    <!-- Trip Item Card -->
-
     <div class="container mt-5 pt-5">
 
-   
+      <!-- Filter and Sort -->
+
+      <div class="row mt-5 pt-5">
+
+        <!-- Filter Radio Buttons -->
+        <div class="btn-group col-auto" role="group">
+
+          <input type="radio" class="btn-check" name="filterRadio" id="allTripsFilter" value="" autocomplete="off" checked>
+          <label class="btn btn-outline-secondary" for="allTripsFilter">All Trips</label>
+        
+          <input type="radio" class="btn-check" name="filterRadio" id="shortTripsFilter" value="short" autocomplete="off">
+          <label class="btn btn-outline-secondary" for="shortTripsFilter">Short Trips</label>
+        
+          <input type="radio" class="btn-check" name="filterRadio" id="longTripsFilter" value="long" autocomplete="off">
+          <label class="btn btn-outline-secondary" for="longTripsFilter">Long Trips</label>
+
+        </div>
+
+      </div>
+
+      </div>
 
         <!-- Trips List Cards -->
         <div class="row pt-5" id="tripsContainer">
-<!------------------------------------------------------>
-        <!-- Card Template -->
-        <template id="cardTemplate">
+          <!-- cards are appended here -->
+        </div>
+  </div>
+
+          <!-- Card Template -->
+          <template id="cardTemplate">
             <div class="col-4">
 
         <!-- Card Element -->
@@ -91,11 +109,7 @@
             </div>
         </template>
 
-        </div>
-  </div>
-
-
-    <!----------------------------------------------->
+  
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
