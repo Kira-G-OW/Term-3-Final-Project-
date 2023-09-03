@@ -1,8 +1,7 @@
 # Term-3-Final-Project-
 
 ![GrandeurCruisesLogo](/assets/GrandeurCruiseLogo.png)
-
-(i could not get any of my images to load in the read me but they are in a separate commit marked in all caps)
+(I could not get any of my images to load in the read me but they are in a separate commit marked in all caps)
 
 This is my final submission for my Term 3 Development project in which I created site for a cruise company using html, jquery and css to do so.
 
