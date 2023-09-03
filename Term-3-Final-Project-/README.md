@@ -1,4 +1,3 @@
-# Term-3-Final-Project-
 
 ![GrandeurCruisesLogo](/assets/Grandeur%20Cruise%20Logo.png)
 
@@ -26,44 +25,46 @@ Grandeur Cruises is a site which allows users to view, filter and book various c
 
 ### Home
 
-![Homepage](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20HOMEPAGE.png)
+![Homepage](/ReadmeAssets/DV%20final%20sub%20screenshot%20HOMEPAGE.png)
 
 CAROUSEL ELEMENT
 
 Hero Image implemented on slide 1
-![Carousel](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CAROUSEL%20Slide%201..png)
+![Carousel](/ReadmeAssets/DV%20final%20sub%20screenshot%20CAROUSEL%20Slide%201..png)
 
 Browse trips button implemented on slide 2
-![Carousel](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CAROUSEL%20Slide%202.png)
+![Carousel](/ReadmeAssets/DV%20final%20sub%20screenshot%20CAROUSEL%20Slide%202.png)
 
 Weather API implemented on slide 3
-![Carousel](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CAROUSEL%20Slide%203.png)
+![Carousel](/ReadmeAssets/DV%20final%20sub%20screenshot%20CAROUSEL%20Slide%203.png)
 
 ACCORDION ELEMENT
 
 Collapsed Accordion
-![Accordion](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20ACCCORDION%20unclicked.png)
+![Accordion](/ReadmeAssets/DV%20final%20sub%20screenshot%20ACCCORDION%20unclicked.png)
 
 Expanded Accordion
-![Accordion](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20ACCORDION%20clicked.png)
+![Accordion](/ReadmeAssets/DV%20final%20sub%20screenshot%20ACCORDION%20clicked.png)
 
 ### Trips Page
 
 Unfiltered Trips page
-![Trips](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20TRIPS%20PAGE%20unfiltered.png)
+![Trips](/ReadmeAssets/DV%20final%20sub%20screenshot%20TRIPS%20PAGE%20unfiltered.png)
 
 Filtered Trips page
-![Trips](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20TRIPS%20PAGE%20Filtered.png)
+![Trips](/ReadmeAssets/DV%20final%20sub%20screenshot%20TRIPS%20PAGE%20Filtered.png)
 
 ### Checkout Page
 Checkout page Top
-![Checkout](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CHECKOUT%20PAGE%201.png)
+![Checkout](/ReadmeAssets/DV%20final%20sub%20screenshot%20CHECKOUT%20PAGE%201.png)
 
 Checkout page bottom
-![Checkout](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CHECKOUT%20PAGE%202.png)
+![Checkout](/ReadmeAssets/DV%20final%20sub%20screenshot%20CHECKOUT%20PAGE%202.png)
 
 success message popup 
-![Modal](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20SUCCESS%20MESSAGE.png)
+![Modal](/ReadmeAssets/DV%20final%20sub%20screenshot%20SUCCESS%20MESSAGE.png)
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
