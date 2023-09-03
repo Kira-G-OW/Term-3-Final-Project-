@@ -209,3 +209,45 @@ $("#btn-2").click(function (){
 $("#btn-3").click(function (){
     $(".row-3").hide("slow");
 })
+
+// modal
+
+$(".open").on("click", function(){
+    $(".popup, .popup-content").addClass("active");
+});
+
+$(".close, .popup").on("click", function(){
+    $(".popup, .popup-content").removeClass("active");
+});
+
+$("#btn-check").click(function (){
+    $(".table").hide();
+})
+
+
+
+
+// Api 
+
+
+const apiKey = '8759d43fce621bb6239387dec2630ce5';
+const city = 'Monte Carlo, Monaco'; 
+
+
+function fetchWeatherData() {
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
+        .then((response) => response.json())
+        .then((data) => {
+         
+            document.getElementById('temperature').textContent = `${data.main.temp}°C`;
+            document.getElementById('cloudiness').textContent = data.weather[0].description;
+            document.getElementById('rain').textContent = `${data.clouds.all}%`;
+            document.getElementById('humidity').textContent = `${data.main.humidity}%`;
+            document.getElementById('feels-like').textContent = `${data.main.feels_like}°C`;
+        })
+        .catch((error) => {
+            console.error('Error fetching weather data:', error);
+        });
+}
+
+fetchWeatherData();
