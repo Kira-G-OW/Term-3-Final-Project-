@@ -1,6 +1,6 @@
 # Term-3-Final-Project-
 
-![GrandeurCruisesLogo](/assets/Grandeur%20Cruise%20Logo.png)
+![GrandeurCruisesLogo](/assets/GrandeurCruiseLogo.png)
 
 This is my final submission for my Term 3 Development project in which I created site for a cruise company using html, jquery and css to do so.
 
