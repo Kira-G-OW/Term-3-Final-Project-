@@ -57,6 +57,7 @@ button {
     color: #316671;
 }
 
+
 /* Carousel */
 
 .carousel-control-next, .carousel-control-prev {
@@ -107,4 +108,78 @@ button {
 
 .card-text {
     color: black;
+}
+
+
+/* Accordion */
+
+.accordion {
+    background-color: #f3f3f3;
+    padding-left: 10%;
+    padding-right: 11%;
+    padding-top: 5%;
+    
+}
+
+.accordion-body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    background-color: #f3f3f3;
+}
+
+ .accordion-header {
+    background-color: #f3f3f3;
+    font-family: 'Raleway', sans-serif;
+ }
+
+ .accordion-button {
+    background-color: #f3f3f3;
+    color: #316671;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    
+ }
+
+ .accordion-button:not(.collapsed) {
+    color: white;
+    background: #316671;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.accordion-title {
+    float: left;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+/* Table */
+
+.table-img {
+    width: auto;
+    height: 200px;
+    margin: auto;
+}
+
+.table {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+    color: #18382b;
+}
+
+.remove {
+    margin-top: 20%;
+    padding: 10px 14px;
+}
+
+.table-body {
+    background: #e6f2e9;
+}
+
+th {
+    font-family: 'Raleway', sans-serif;
+    color: #18382b;
+   
 }

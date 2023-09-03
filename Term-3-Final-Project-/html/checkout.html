@@ -18,7 +18,7 @@
 
         <!-- Navigation -->
 
-        <nav class="navbar fixed-top">
+        <nav class="navbar top">
 
             <div class="container">
     
@@ -58,12 +58,65 @@
     
         <!------------------------------------------------------------>
 
+        <!-- Table -->
+
+  <table class="table mt-5 pt-5">
+
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Your Trips</th>
+        <th scope="col"><button id="btn-all">Remove All</button></th>
+      </tr>
+    </thead>
+    
+    <tbody class="all">
+        <tr class="row-1">
+            <th scope="row">
+                <img class="table-img" src="/assets/Monaco.jpg">
+            </th>
+
+            <th scope="row">
+                <p class="mt-5 pt-5">Monaco Cruise</p>
+            </th>
+            
+            <th scope="row">
+                <button id="btn-1" class="remove">Remove</button>
+            </th>
+        </tr>
+
+        <tr class="row-2">
+          <th scope="row">
+              <img class="table-img" src="/assets/Haiti.jpg">
+          </th>
+
+          <th scope="row">
+              <p class="mt-5 pt-5">Haiti Cruise</p>
+          </th>
+          
+          <th scope="row">
+              <button id="btn-2" class="remove">Remove</button>
+          </th>
+      </tr>
+
+      <tr class="row-3">
+        <th scope="row">
+            <img class="table-img" src="/assets/Greece.jpg">
+        </th>
+
+        <th scope="row">
+            <p class="mt-5 pt-5">Greece Cruise</p>
+        </th>
+        
+        <th scope="row">
+            <button id="btn-3" class="remove">Remove</button>
+        </th>
+    </tr>
+
+    </tbody>
+  </table>
   
 
-    <!-- Trip Item Card -->
-
-
-    <!----------------------------------------------->
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

@@ -10,14 +10,20 @@ const arrTrips = [
         image: "Haiti.jpg",
         tripLength: "short",
         tripNrDays: "5",
+        tripDestination: "single",
+        roundTrip: "round",
+        rowboatSpecial:"special",
     },
     {
         name: "Monaco Cruise",
         price: 22000,
-        description: "Embark on a 7-day cruise to Monaco, the pinnacle of luxury and glamour! Enjoy elegant staterooms, gourmet dining, and attentive service. Explore opulent casinos, upscale boutiques, and iconic landmarks in this enchanting Principality. Create unforgettable memories in the Mediterranean's most exclusive destination.",
+        description: "Embark on a 5-day cruise to Monaco, the pinnacle of luxury and glamour! Enjoy elegant staterooms, gourmet dining, and attentive service. Explore opulent casinos, upscale boutiques, and iconic landmarks in this enchanting Principality. Create unforgettable memories in the Mediterranean's most exclusive destination.",
         image: "Monaco.jpg",
         tripLength: "short",
-        tripNrDays: "7",
+        tripNrDays: "5",
+        tripDestination: "multi",
+        roundTrip: "round",
+        rowboatSpecial:"",
     },
     {
         name: "Greece Cruise",
@@ -26,6 +32,9 @@ const arrTrips = [
         image: "Greece.jpg",
         tripLength: "long",
         tripNrDays: "14",
+        tripDestination: "single",
+        roundTrip: "round",
+        rowboatSpecial:"special",
     },
     {
         name: "Portugal Cruise",
@@ -34,11 +43,37 @@ const arrTrips = [
         image: "Portugal.jpg",
         tripLength: "long",
         tripNrDays: "10",
+        tripDestination: "multi",
+        roundTrip: "",
+        rowboatSpecial:"",
     },
- 
+    {
+        name: "Transatlantic Cruise",
+        price: 76000,
+        description: "Sail on a 21-day transatlantic cruise, a grand journey across the Atlantic. Revel in sea-view cabins, exquisite dining, and onboard activities. Explore multiple ports, all while embracing the serenity of the open ocean. Join us for an ocean odyssey like no other!",
+        image: "trans atlantic.jpeg",
+        tripLength: "long",
+        tripNrDays: "21",
+        tripDestination: "multi",
+        roundTrip: "round",
+        rowboatSpecial:"",
+    },
+    {
+        name: "Hawaiian Cruise",
+        price: 16000,
+        description: "Embark on a 5-day Hawaiian cruise and escape to paradise. Indulge in ocean-view cabins, savor Hawaiian flavors, and explore the islands with guided excursions. Join us for an unforgettable journey through the Pacific's gems. Aloha!",
+        image: "Hawaii.jpeg",
+        tripLength: "short",
+        tripNrDays: "5",
+        tripDestination: "single",
+        roundTrip: "",
+        rowboatSpecial:"special",
+    },
+    
 ];
 
 let appliedFilter = "";
+
 
 
 //----------------------------------------------------------------------------
@@ -102,7 +137,7 @@ function loadTrips(tripsToShow) {
 };
 
 // ---------------------------------------------------------------
-// When the filter or sort is clicked
+// When the filter clicked
 // ---------------------------------------------------------------
 
 $("input[name='filterRadio']").click(function() {
@@ -156,3 +191,21 @@ $("#tripsContainer").on('click','.card', function() {
 })
 
 
+
+
+// when "Remove" button is clicked
+$("#btn-all").click(function (){
+    $(".all").hide("slow");
+})
+
+$("#btn-1").click(function (){
+    $(".row-1").hide("slow");
+})
+
+$("#btn-2").click(function (){
+    $(".row-2").hide("slow");
+})
+
+$("#btn-3").click(function (){
+    $(".row-3").hide("slow");
+})
