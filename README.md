@@ -26,18 +26,18 @@ Grandeur Cruises is a site which allows users to view, filter and book various c
 
 ### Home
 
-![Homepage](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20HOMEPAGE.png)
+![Homepage](/assets/ReadMeAssets/DVfinalsubscreenshotHOMEPAGE.png)
 
 CAROUSEL ELEMENT
 
 Hero Image implemented on slide 1
-![Carousel](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CAROUSEL%20Slide%201..png)
+![Carousel](/assets/ReadMeAssets/DVfinalsubscreenshotCAROUSELSlide1..png)
 
 Browse trips button implemented on slide 2
-![Carousel](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CAROUSEL%20Slide%202.png)
+![Carousel](/assets/ReadMeAssets/DVfinalsubscreenshotCAROUSELSlide2.png)
 
 Weather API implemented on slide 3
-![Carousel](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CAROUSEL%20Slide%203.png)
+![Carousel](/assets/ReadMeAssets/DVfinalsubscreenshotCAROUSELSlide3.png)
 
 ACCORDION ELEMENT
 
