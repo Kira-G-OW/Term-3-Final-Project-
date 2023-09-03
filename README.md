@@ -26,16 +26,44 @@ Grandeur Cruises is a site which allows users to view, filter and book various c
 
 ### Home
 
-![EvergreenLogo](/assets/readme/readme_homepage.png)
+![Homepage](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20HOMEPAGE.png)
+
+CAROUSEL ELEMENT
+
+Hero Image implemented on slide 1
+![Carousel](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CAROUSEL%20Slide%201..png)
+
+Browse trips button implemented on slide 2
+![Carousel](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CAROUSEL%20Slide%202.png)
+
+Weather API implemented on slide 3
+![Carousel](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CAROUSEL%20Slide%203.png)
+
+ACCORDION ELEMENT
+
+Collapsed Accordion
+![Accordion](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20ACCCORDION%20unclicked.png)
+
+Expanded Accordion
+![Accordion](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20ACCORDION%20clicked.png)
 
 ### Trips Page
 
-![EvergreenLogo](/assets/readme/readme_browsepage.png)
+Unfiltered Trips page
+![Trips](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20TRIPS%20PAGE%20unfiltered.png)
+
+Filtered Trips page
+![Trips](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20TRIPS%20PAGE%20Filtered.png)
 
 ### Checkout Page
+Checkout page Top
+![Checkout](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CHECKOUT%20PAGE%201.png)
 
-![EvergreenLogo](/assets/readme/readme_browsepage.png)
+Checkout page bottom
+![Checkout](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20CHECKOUT%20PAGE%202.png)
 
+success message popup 
+![Modal](/assets/ReadMeAssets/DV%20final%20sub%20screenshot%20SUCCESS%20MESSAGE.png)
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -79,5 +107,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgements
 
 *A huge thank you to Kurt Schwimmbacher for allowing me to use his API key when i couldn't get mine to  work.
-* a hat tip to my lecturers and facilitator as i would understand none of this without them.
+*A hat tip to my lecturers and facilitator as i would understand none of this without them.
   
+
